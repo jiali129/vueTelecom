@@ -1,21 +1,16 @@
-# onedays
+# 项目总结
 
-> A Vue.js project
+**项目描述：
 
-## Build Setup
+  本项目是电信通长城宽带，采用VUE项目搭建，其中涉及登录注册验证，from表单，添加loading为客户增添更好的使用效果。
+**项目架构：
+ 
+1. 整个项目使用vue-cli框架 
+2. 以及vue-router构建，处理各个页面之间的贯通。 
+3. 项目采用vuex进行各组件间的通讯。
+4. 运用elementUi对代码进行优化，并自定义事件
+**项目中遇到的问题
 
-``` bash
-# install dependencies
-npm install
+ 1. 表单提交验证
+ 2.在给elementUi利用它的一些属性运用Vuex实现效果
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
